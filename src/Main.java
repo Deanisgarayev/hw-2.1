@@ -57,7 +57,7 @@ public class Main {
 //}
     // 9
 //    public static void changePerson(Person person) {
-//        person = new Person(" Ilya", "Lagutenko. ");
+//        person = new Person(" Ilya", "Lagutenko.");
 //        System.out.println(person);
 //    }
 //    public static void main(String[] args) {
@@ -69,10 +69,8 @@ public class Main {
 //    }
 //}
 // 10
-public static void changePerson(Person person) {
-    person = new Person();
-    person.firstname = " Ilya";
-    person.surname = "Lyapis";
+    public static void changePerson(Person person) {
+        person = new Person(" Ilya", "Lagutenko.");
         System.out.println(person);
     }
     public static void main(String[] args) {
@@ -83,3 +81,4 @@ public static void changePerson(Person person) {
         //Person{firstname='Lyapis', surname='Trubetskoy'}
     }
 }
+
