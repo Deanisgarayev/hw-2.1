@@ -8,7 +8,7 @@ public class Main {
 //        int value = 33;
 //        changeValue(value);
 //        System.out.println(value);
-//        //result 22/33
+//        //result 22 33
 //    }
 //}
 // 6
@@ -20,7 +20,7 @@ public class Main {
 //        Integer value = 33;
 //        changeValue(value);
 //        System.out.println(value);
-//        //result 22/33
+//        //result 22 33
 //    }
 //}
 //7
