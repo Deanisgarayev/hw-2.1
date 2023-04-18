@@ -12,16 +12,11 @@ public class Main {
     // 7
     public static void changeValue3(Integer[] value) {
         value = new Integer[]{1, 2};
-        for (Integer i = 0; i < value.length; i++) {
-        }
     }
-
-    //8
-    public static void changeValue4(Integer[] value) {
-        value = new Integer[]{99};
-        for (Integer i = 0; i < value.length; i++) {
+        //8
+        public static void changeValue4 (Integer[]value){
+            value[0] = 99;
         }
-    }
 
     //9
     public static void changePerson5(Person person) {
@@ -31,7 +26,8 @@ public class Main {
 
     // 10
     public static void changePerson6(Person person) {
-        person = new Person("Ilya", "Lagutenko");
+        person.setFirstname("Ilya");
+        person.setSurname("Lagutenko");
 
     }
 
